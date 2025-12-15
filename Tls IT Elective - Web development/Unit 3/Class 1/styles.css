@@ -1,19 +1,19 @@
 p{
-    color: #B8C1CC;
+    color: #E2E8F0;
 }
 h1{
-    color: #E94F37;
+    color: #38BDF8;
 }
 h2{
-    color: #DED891;
+    color: #F9DF74;
 }
 body{
-    background-color: #101935;
+    background-color: #0F172A;
     /* background-color: #3570AC; */
     text-align: center;
 }
 div{
-    background-color: #4E6A57;
+    background-color: #1E293B;
     border: none;
     border-radius: 10px;
     padding: 10px;
@@ -27,9 +27,9 @@ img{
     margin: auto;
 }
 footer{
-    color: #B8C1CC;
+    color: #E2E8F0;
     margin-top: 20px;
     padding: 10px 0 0 0;
-    border-top: #B8C1CC 1px solid;
+    border-top: #334155 1px solid;
     font-family: 'Times New Roman', Times, serif;
 }

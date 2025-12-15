@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(229, 151, 33);
+    color: white;
+    font-family: Josefin Sans, sans-serif;
+}
+.part-topic{
+    color: #ff3333;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.q{
+    /*color*/
+    font-style: italic;
+    color: yellow;
+    font-size: 13px;
+}
+.ans{
+    /* font-weight: bold; */
+    color: lightblue;
+}
+.ans li:nth-child(even){
+    /* color font */
+    color: lightgreen;
+}
+.part{
+    margin-bottom: 30px;
+    border-bottom: solid black 2px;
+}
+h1{
+    padding-bottom: 15px;
+    border-bottom: solid black 2px;
+}
+h3{
+    color:aqua;
+    font-style: bold;
+}
+footer{
+    font-size: 12px;
+    font-style: italic;
+    color: lightgray;
+    text-align: center;
+}

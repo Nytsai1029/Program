@@ -1,0 +1,171 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:  lightblue;
+    color: deepskyblue;
+}
+
+img{
+    border: 2px solid black;
+}
+/* #i1{
+    filter: blur(2px);
+}
+#i2{
+    filter: grayscale(100%);
+}
+#i3{
+    filter: sepia(100%);
+}
+#i4{
+    filter: brightness(150%);
+}
+#i5{
+    filter: contrast(200%);
+}
+#i6{
+    filter: hue-rotate(90deg);
+}
+#i7{
+    filter: invert(100%);
+}
+#i8{
+    filter: opacity(50%);
+}
+#i9{
+    filter: saturate(200%);
+}
+#i10{
+    filter: drop-shadow(10px 10px 10px gray);
+} */
+div{
+    padding: 10px;
+    border: 2px solid deepskyblue;
+}
+.d1{
+    filter: blur(2px);
+}
+.d2{
+    filter: grayscale(100%);
+}
+.d3{
+    filter: sepia(100%);
+}
+.d4{
+    filter: brightness(150%);
+}
+.d5{
+    filter: contrast(200%);
+}
+img:hover{
+    width:270px;
+}
+#i1:hover{
+    animation: blurFilter 1s forwards;
+}
+#i2:hover{
+    animation: grayscaleFilter 1s forwards;
+}
+#i3:hover{
+    animation: sepiaFilter 1s forwards;
+}
+#i4:hover{
+    animation: brightnessFilter 1s forwards;
+}
+#i5:hover{
+    animation: contrastFilter 1s forwards;
+}
+#i6:hover{
+    animation: hueRotateFilter 1s forwards;
+}
+#i7:hover{
+    animation: invertFilter 1s forwards;
+}
+#i8:hover{
+    animation: opacityFilter 1s forwards;
+}
+#i9:hover{
+    animation: saturateFilter 1s forwards;
+}
+#i10:hover{
+    animation: dropShadowFilter 1s forwards;
+}
+@keyframes blurFilter {
+    from {
+        filter: blur(2px);
+    }
+    to {
+        filter: blur(10px);
+    }
+}
+@keyframes grayscaleFilter {
+    from {
+        filter: grayscale(0%);
+    }
+    to {
+        filter: grayscale(100%);
+    }
+}
+@keyframes sepiaFilter {
+    from {
+        filter: sepia(0%);
+    }
+    to {
+        filter: sepia(100%);
+    }
+}
+@keyframes brightnessFilter {
+    from {
+        filter: brightness(100%);
+    }
+    to {
+        filter: brightness(150%);
+    }
+}
+@keyframes contrastFilter {
+    from {
+        filter: contrast(100%);
+    }
+    to {
+        filter: contrast(200%);
+    }
+}
+@keyframes hueRotateFilter {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(90deg);
+    }
+}
+@keyframes invertFilter {
+    from {
+        filter: invert(0%);
+    }
+    to {
+        filter: invert(100%);
+    }
+}
+@keyframes opacityFilter {
+    from {
+        filter: opacity(100%);
+    }
+    to {
+        filter: opacity(50%);
+    }
+}
+@keyframes saturateFilter {
+    from {
+        filter: saturate(100%);
+    }
+    to {
+        filter: saturate(2000%);
+    }
+}
+@keyframes dropShadowFilter {
+    from {
+        filter: drop-shadow(0px 0px 0px gray);
+    }
+    to {    
+        filter: drop-shadow(10px 10px 10px gray);
+    }
+} 

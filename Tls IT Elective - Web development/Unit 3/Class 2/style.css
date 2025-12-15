@@ -1,0 +1,38 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+    background-color: #0D1B2A;
+    color: #E0C087;
+}
+.content-a{
+    color: #FF5733;
+    background-color: #e9edc9;
+}
+.content-b{
+    color: #33FF57;
+    background-color: #fefae0;
+}
+.content-c{
+    color: #3357FF;
+    background-color: #faedcd;
+}
+div.container, div.container div{
+    margin: 10px;
+    border: red solid 2px;
+    padding: 10px;
+}
+.content-a, .content-b, .content-c{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+div.container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.content-b:hover{
+    /* visibility: hidden; */
+    /* display: none; */
+    pointer-events: none;
+    opacity: 0;
+}

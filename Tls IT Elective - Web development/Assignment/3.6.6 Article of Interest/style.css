@@ -1,0 +1,35 @@
+body{
+    /* You can change the background of the body*/
+    background-image:url("https://codehs.com/uploads/707f69c0b88bf17b30e5ba8a83736d27");
+    color:ivory;
+}
+
+/* Removes all default link styling */
+a:link, a:visited, a:hover, a:active{
+    margin:2em;
+    color:white;
+    font-size:20px;
+}
+
+article{
+    margin:5%;
+    
+    /* Adds a faint gray box behind the article so you can
+     see the text on the background image. If you remove the
+     background image, you may not need this box. */
+    background-color:rgba(128,128,128,0.4);
+}
+
+footer{
+    background-color:darkgray;
+    border: 3px groove  gray;
+    text-align:center;
+    color:black;
+    padding:2em;
+    
+    /* Sticks the footer to the bottom of the page*/
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    
+}
